@@ -1,0 +1,202 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+    }
+    
+    
+/*------Styles de Bases------*/
+
+.wrapper{
+    margin: auto;
+    max-width:  1200px;
+    
+}
+ul{
+    display: flex;
+   list-style: none;
+   gap: 40px;
+   align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-height: 138px;
+}
+body{
+   background-color: #F2F2F2; 
+}
+a{
+    text-decoration: none;
+   font-family: Mouse Memoirs;
+   font-size: 30px;
+}
+.hero{
+    text-align: center;
+}
+.hero .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 97px;
+}
+.droite{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 97px;
+}
+.Art{
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+}
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.parc{
+    display:flex;
+    flex-direction: column;
+    gap: 0;
+    
+}
+.contenu{
+    background-color: white;
+}
+.Parcs{
+   padding-top: 215px; 
+   padding-bottom: 125px;
+}
+/*------Styles de Textes-----*/
+
+.A:hover{
+    color: #00F568;
+}
+.M:hover{
+    color: #02B3B9; 
+}
+.H:hover{
+    color: #E38B00;
+}
+.E:hover{
+    color: #002C39;
+}
+h1{
+    font-size:80px ;
+    font-family: Mouse Memoirs;
+    color: #02B3B9;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 44px;
+    font-family: Montserrat;
+    color: black;
+    font-weight: 500;
+}
+h3{
+    font-size: 60px;
+    font-family: Princess Sofia;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+}
+.soustitre{
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+h5{
+  font-size: 30px;  
+  font-family: Montserrat;
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.e{
+    font-size: 40px;
+    font-family: Princess Sofia;
+    color: #002C39;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.a{
+    font-size: 40px;
+    font-family: Princess Sofia; 
+    color: #00F568;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.h{
+    font-size: 40px;
+    font-family: Princess Sofia; 
+    color:#E38B00 ;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.m{
+    font-size: 40px;
+    font-family: Princess Sofia; 
+    color:#02B3B9 ;
+    margin-bottom: 0;
+    font-weight: 500;  
+}
+span{
+  font-size: 30px;  
+  font-family: Princess Sofia;
+}
+p{
+   font-size: 20px; 
+   font-family: Montserrat;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
+footer a{
+    font-size: 15px;
+}
+h6{
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+.contenu a{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.Parcs h3{
+    margin-bottom: 105px;
+}
+/*-----Styles autres----*/
+
+.hero img{
+    max-width: 770px;
+    max-height: 560px;
+    
+}
+.culinaire .droite img{
+    border-top:15px black solid;
+    border-right: 15px black solid;
+
+}
+.culinaire .gauche img{
+    border-bottom: 15px black solid;
+    border-left: 15px black solid;
+}
